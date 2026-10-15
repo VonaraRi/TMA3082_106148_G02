@@ -1,0 +1,4 @@
+C:\Users\Rionnalyn\Downloads\TMA3082-106148G02>cd exercise\lab2.1
+
+C:\Users\Rionnalyn\Downloads\TMA3082-106148G02\exercise\lab2.1>dart main.dart
+Total Salary = $5070.0 USD
