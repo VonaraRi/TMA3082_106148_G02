@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'order_summary.dart';
+
 const TextStyle itemStyle = TextStyle(
   color: Colors.white,
   fontWeight: FontWeight.bold,
@@ -53,6 +55,17 @@ class MenuScreen extends StatelessWidget {
                 title: const Text('Carnation Flower', style: itemStyle),
               ),
             ),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute<void>(
+                  builder: (context) => const OrderSummaryScreen(),
+                ),
+              );
+            },
+            child: const Text('Order Summary'),
           ),
         ],
       ),
